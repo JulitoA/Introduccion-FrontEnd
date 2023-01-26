@@ -12,12 +12,12 @@ font-family: 'Open Sans';
 
 
 .encabezado {
-background-color: #000;    
+background-color: black;    
 height: 450px;
 display: flex;
 flex-direction: column;
 align-items: center;
-justify-content: center;
+
 }
 
 .encabezado h1 {
@@ -32,8 +32,14 @@ justify-content: center;
 .encabezado p {
     color:white;
     font-size: 30px;
-    margin-top: 20px;
+    margin-top: -5px;
 
+}
+
+.encabezado img {
+	height: 30%;
+	border-radius: 50%;
+	border: solid white 5px;
 }
 
 .navegador {
@@ -101,7 +107,7 @@ max-height: max-content;
 scroll-margin-top*/
 
 #ini {
-    padding-top: 10%;
+	padding-top: 7%;
 }
 
 #inf {
@@ -291,13 +297,4 @@ html {
 @keyframes entradaInputs {
 	from { opacity: 0; }
 	to { opacity: 1; }
-}
-
-.pie {
-	background-color: #000;    
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
